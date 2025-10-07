@@ -1,0 +1,124 @@
+
+.section-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.menu {
+    height: auto;
+    background-image: url('aroma-images/contactBG.jpg');
+    background-size: cover;  
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.menu-cards {
+    width: 274px;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+    
+}
+
+
+
+.menu-cards img {
+    width: 100%;
+    height: 188px;
+    border-radius: 5px;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    height: 149px;;
+    
+}
+
+.product-name {
+    font-size: 22px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-description {
+    font-size: 16px;
+}
+
+.menu > input[type="radio"] {
+    display: none;
+}
+
+.menutabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #D0D0D0;
+   
+}
+
+.menutabs label {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+#coffee:checked ~ .menutabs label[for="coffee"],
+#pastries:checked ~ .menutabs label[for="pastries"] {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.menu-card {
+    display: none;
+}
+
+
+#coffee:checked ~ .menu-cards-container .coffee-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+#pastries:checked ~ .menu-cards-container .pastries-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px; 
+}

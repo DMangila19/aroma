@@ -1,0 +1,113 @@
+.contact-us {
+    height: auto;
+    padding: 100px 200px;
+    background-image: url('aroma-images/contactBG.jpg');
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.column-container {
+    height: 910px;
+    display: flex;
+    gap: 50px;
+}
+
+.location-contact-email {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.head-and-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.map {
+    width: 100%;
+}
+
+
+.get-in-touch {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.text-icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.text-icon-container img {
+    height: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    
+}
+
+.asterisk {
+    color: red;
+}
+
+
+input {
+    
+    height: 35px;
+    padding-left: 15px;
+    border-style: none;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+   
+}
+   
+
+.privacy-terms {
+
+   color: #967259;
+}
+
+
+textarea {
+
+  height: 125px;
+  padding: 15px;
+  border: 1px solid #BFBFBF;
+  border-radius: 5px;
+  font-family: Instrument Sans;
+  font-size: 16px;
+}

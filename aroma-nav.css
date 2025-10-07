@@ -1,0 +1,53 @@
+nav {
+    
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    padding: 0px 50px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border: 3px solid #ffff;
+    border-radius: 100px;
+    color: #634832;
+    justify-self: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+
+    
+}
+
+ul li a{ 
+    text-decoration: none;
+    color: #634832;
+    font-family: 16px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border-width: 0;
+    background-color: #634832;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.logo {
+    
+    font-family: Lily Script One;
+    font-size: 27px;
+}

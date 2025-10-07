@@ -1,0 +1,28 @@
+.about-us {
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 150px;
+    font-size: 16px;
+}
+
+.about-us img {
+    height: 427px;
+}
+
+.about-us-article {
+    height: 427px;
+
+}
+
+.about-us-subhead {
+    color: #634832;
+    font-weight: bold;
+}
+
+.who-we-are {
+    font-size: 45px;
+}

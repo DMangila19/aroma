@@ -1,0 +1,43 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('aroma-images/newsletterbgnew.png');
+    background-size: cover;
+    
+    padding: 50px;
+    gap: 50px;
+    color: white;
+}
+
+.subscribe {
+    width: 388px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.subscribe img {
+    height: 15px;
+}
+
+.subscribe button {
+    padding: 15px 20px;
+    height: 40px;
+    align-items: center;
+}
+
+.icon-emailaddress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: black;
+}

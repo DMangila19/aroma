@@ -1,0 +1,63 @@
+.our-services {
+    padding: 100px 200px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+   
+ 
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+   
+}
+
+.service-description {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 485px;
+    
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-text .services-title-text {
+    font-size: 30px;
+
+}
+
+.coffee-icon-bg {
+    height: 60px;
+    width: 60px;
+    background-color: #634832;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; }
+
+.coffee-icon-bg img {
+    height: 25px;
+   
+}
+
+.brew {
+    width: 485px;
+    height: 323px;
+    border-radius: 10px;
+}

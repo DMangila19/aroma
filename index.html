@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aroma Cafe</title>
+
+    <link rel="stylesheet" href="aroma-nav.css" />
+    <link rel="stylesheet" href="aroma-general.css" />
+    <link rel="stylesheet" href="aroma-hero-sections.css" />
+    <link rel="stylesheet" href="aroma-about-us.css" />
+    <link rel="stylesheet" href="aroma-menu.css" />
+    <link rel="stylesheet" href="aroma-service.css" />
+    <link rel="stylesheet" href="aroma-contact-us.css" />
+    <link rel="stylesheet" href="aroma-testimonials.css">
+    <link rel="stylesheet" href="aroma-newsletter.css">
+    <link rel="stylesheet" href="aroma-footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=Lily+Script+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Aroma Cafe</div>
+
+      <ul>
+        <li><a href="#projects">Home</a></li>
+        <li><a href="#projects">About</a></li>
+        <li><a href="#projects">Menu</a></li>
+        <li><a href="#projects">Services</a></li>
+        <li><a href="#projects">Testimonials</a></li>
+      </ul>
+
+      <div><button>Contact Us</button></div>
+    </nav>
+
+    <section class="hero-section">
+      <p>Taste the <span>Calm,</span> Feel</p>
+      <p>the<span> Comfort</span></p>
+      <p class="sub-head">Enjoy aromatic brews and golden pastries in a cozy café space crafted to soothe your senses.</p>
+      <button class="hero-button">Contact Us</button>
+    </section>
+
+    <section class="about-us">
+      <img class="about-us-image" src="aroma-images/about-us-image.jpg" />
+
+      <div class="about-us-article">
+        <p>
+          <span class="about-us-subhead">About Us</span>
+          <br />
+          <br />
+          <span class="who-we-are">Who We Are</span>
+          <br />
+          <br />
+          At Aroma Café, we believe that every cup of coffee tells a story. Our
+          mission is to create a space where people can slow down, connect, and
+          enjoy coffee crafted with care.
+          <br />
+          <br />
+          From bold espressos to smooth lattes, and freshly baked pastries to
+          pair with them, we’re here to make every visit a comforting
+          experience.
+          <br />
+          <br />
+          More than just a café, Aroma Café is a place for conversations,
+          creativity, and community—where great flavors and warm moments come
+          together.
+        </p>
+      </div>
+    </section>
+
+    <section class="menu">
+
+      <input type="radio" name="menu" id="coffee" checked/>
+      <input type="radio" name="menu" id="pastries"/>
+
+      
+      
+      <div class="section-description">
+        <p class="subhead">Our Menu</p>
+        <p class="head">Good Coffee, Great Pastries</p>
+        <p class="head-description">
+          A perfect pairing to start your day or unwind anytime.
+        </p>
+      </div>
+
+      <div class="menutabs">
+        <p>Categories :</p>
+        <label for="coffee">Coffee</label>
+        <label for="pastries">Pastries</label>
+      </div>
+
+
+      <div class="menu-cards-container">
+        <div class="menu-card coffee-card">
+           <div class="menu-cards">
+              <img src="aroma-images/espresso.jpg" />
+              <div class="card-description">
+                <p class="product-name">Espresso</p>
+                <p class="product-price">$4.00</p>
+                <p class="product-description">
+                  A bold and rich shot of pure coffee
+                </p>
+              </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/spanish-latter.jpg" />
+          <div class="card-description">
+            <p class="product-name">Spanish Latte</p>
+            <p class="product-price">$5.00</p>
+            <p class="product-description">
+              A creamy drink sweetened with condensed milk
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/americano.jpg" />
+          <div class="card-description">
+            <p class="product-name">Americano</p>
+            <p class="product-price">$3.50</p>
+            <p class="product-description">
+              Smooth espresso diluted with hot water
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/capuccino.webp" />
+          <div class="card-description">
+            <p class="product-name">Capuccino</p>
+            <p class="product-price">$5.00</p>
+            <p class="product-description">
+              A classic blend of espresso, steamed milk, and frothy foam
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/mocha.jpg" />
+          <div class="card-description">
+            <p class="product-name">Mocha</p>
+            <p class="product-price">$4.00</p>
+            <p class="product-description">
+              Mix of espresso, steamed milk, and chocolate for a sweet
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/caramel-macchiato.jpg" />
+          <div class="card-description">
+            <p class="product-name">Caramel Macchiato</p>
+            <p class="product-price">$5.00</p>
+            <p class="product-description">
+              Espresso layered with steamed milk and topped with caramel
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="menu-card pastries-card">
+           <div class="menu-cards">
+              <img src="aroma-images/croisant.png" />
+              <div class="card-description">
+                <p class="product-name">Butter Croissant</p>
+                <p class="product-price">$4.00</p>
+                <p class="product-description">
+                  Golden, and buttery our classic croissant is baked fresh daily
+                </p>
+              </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/cheesecake.png" />
+          <div class="card-description">
+            <p class="product-name">Blue Berry Cheesecake</p>
+            <p class="product-price">$5.00</p>
+            <p class="product-description">
+              Creamy and smooth with a buttery crust
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/cinnamon.png" />
+          <div class="card-description">
+            <p class="product-name">Cinnamon Roll</p>
+            <p class="product-price">$3.00</p>
+            <p class="product-description">
+              Soft pastry swirled with cinnamon and sweet glaze
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/muffin.png" />
+          <div class="card-description">
+            <p class="product-name">Chocolate Muffin</p>
+            <p class="product-price">$4.00</p>
+            <p class="product-description">
+              Rich, moist, and filled with decadent chocolate chips
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/danish.png" />
+          <div class="card-description">
+            <p class="product-name">Fruit Danish</p>
+            <p class="product-price">$4.00</p>
+            <p class="product-description">
+              Filled with custard and topped with fresh fruits
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-cards">
+          <img src="aroma-images/almond.png" />
+          <div class="card-description">
+            <p class="product-name">Almond Biscotti/p>
+            <p class="product-price">$4.00</p>
+            <p class="product-description">
+              Crunchy Italian-style biscuits, lightly sweetened
+            </p>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="our-services">
+      <div class="section-description">
+        <p class="subhead">Our Services</p>
+        <p class="head">What Can We Give For You</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-description">
+          <div class="icon-text">
+            <div class="coffee-icon-bg">
+              <img src="aroma-icons/coffee.png" />
+            </div>
+            <p class="services-title-text">Freshly Brewed Coffee</p>
+          </div>
+
+          <p>
+            Enjoy a wide selection of expertly brewed coffee made from premium
+            beans sourced from local and international farms. Each cup is
+            crafted to bring out rich aromas and bold flavors.
+          </p>
+        </div>
+        <img class="brew" src="aroma-images/brew.jpg" />
+      </div>
+
+      <div class="service-card">
+        <img class="brew" src="aroma-images/cozy.jpg" />
+        <div class="service-description">
+          <div class="icon-text">
+            <div class="coffee-icon-bg">
+              <img src="aroma-icons/cozy.png" />
+            </div>
+            <p class="services-title-text">Cozy Café Experience</p>
+          </div>
+
+          <p>
+            Relax in our welcoming space—perfect for studying, catching up, or
+            simply enjoying your favorite brew.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-description">
+          <div class="icon-text">
+            <div class="coffee-icon-bg">
+              <img src="aroma-icons/bread.png" />
+            </div>
+            <p class="services-title-text" >Freshly Baked Pastries</p>
+          </div>
+
+          <p>
+            Pair your coffee with our warm, flaky pastries baked daily for the
+            perfect café experience.
+          </p>
+        </div>
+        <img class="brew" src="aroma-images/bread.jpg" />
+      </div>
+
+      <div class="service-card">
+        <img class="brew" src="aroma-images/events.png" />
+        <div class="service-description">
+          <div class="icon-text">
+            <div class="coffee-icon-bg">
+              <img src="aroma-icons/event.png" />
+            </div>
+            <p class="services-title-text" >Events & Catering</p>
+          </div>
+
+          <p>
+            Make your cup your own—choose your strength, milk options, and
+            flavors to match your perfect taste.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="section-description">
+        <p class="subhead">Contact Us</p>
+        <p class="head">Let Us Connect</p>
+      </div>
+      <div class="column-container">
+        <div class="location-contact-email">
+          <div class="head-and-details">
+            <p class="heading">Location</p>
+            <div class="text-icon-container">
+              <img src="aroma-icons/location.jpg" />
+              <p>
+                Unit 304, SkyTower Business Center 75 AeroTech Avenue, New
+                Horizon City Metro Manila, Philippines 1009
+              </p>
+            </div>
+          </div>
+
+          <div class="head-and-details">
+            <p class="heading">Contact Number</p>
+            <div class="text-icon-container">
+              <img src="aroma-icons/phone.jpg" />
+              <p>9999 999 9999</p>
+            </div>
+          </div>
+
+          <div class="head-and-details">
+            <p class="heading">Email</p>
+            <div class="text-icon-container">
+              <img src="aroma-icons/email.jpg" />
+              <p>aromacafe.ph</p>
+            </div>
+          </div>
+
+          <img class="map" src="aroma-images/maps.png" />
+        </div>
+
+        <div class="get-in-touch">
+          <p class="heading">Get In Touch With Us</p>
+          <form>
+            <div class="forms">
+              <label for="completename"
+                >Complete Name : <span class="asterisk">*</span></label
+              >
+              <br />
+              <input type="text" name="completename" id="completename" />
+            </div>
+
+            <div class="forms">
+              <label for="homeaddress"
+                >Home Address : <span class="asterisk">*</span></label
+              ><br />
+              <input type="text" name="homeaddress" id="homeaddress" />
+            </div>
+
+            <div class="forms">
+              <label for="contactnumber"
+                >Contact Number : <span class="asterisk">*</span></label
+              ><br />
+              <input type="text" name="contactnumber" id="contactnumber" />
+            </div>
+
+            <div class="forms">
+              <label for="email">Email Address (Optional)</label><br />
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="forms">
+              <label for="messige">Message :<span class="asterisk">*</span></label
+              ><br /></label>
+              <textarea id="messige"></textarea>
+            </div>
+
+            <p>
+              By submitting this form, you agree with the terms of our
+              <span class="privacy-terms">Privacy Policy</span> and
+              <span class="privacy-terms">Terms of Use</span>
+            </p>
+
+            <button>Submit Form</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="section-description">
+        <p class="subhead">Testimonials</p>
+        <p class="head">Stories Of Our Customers</p>
+      </div>  
+      <div class="testimonial-cards-container">
+        <div class="testimonial-card">
+
+            <div class="image-name">
+              <img src="aroma-icons/vina.png">
+              <div class="name-occupation">
+                <p class="testimonial-name">Vina Wrightson</p>
+                <p class="testimonial-occupation" >Digital Marketing CEO</p>
+              </div>
+            </div>
+            <p class="testimonial-stories">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="stars">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+          
+            <div class="image-name">
+              <img src="aroma-icons/anne.png">
+              <div class="name-occupation">
+                <p class="testimonial-name">Anne Smith</p>
+                <p class="testimonial-occupation" >Technical Support</p>
+              </div>
+            </div>
+            <p class="testimonial-stories">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="stars">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+          
+            <div class="image-name">
+              <img src="aroma-icons/ricco.png">
+              <div class="name-occupation">
+                <p class="testimonial-name">Rico Yap</p>
+                <p class="testimonial-occupation" >Data Analyst</p>
+              </div>
+            </div>
+            <p class="testimonial-stories">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="stars">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+              <img src="aroma-icons/star.png">
+            </div>
+        </div>
+
+      </div>  
+    </section>
+
+  <section class="newsletter">
+    <p class="head">Subscribe to our Newsletter</p>
+    <p>Stay in the loop with our latest brews, treats, and café updates</p>
+    <div class="subscribe">
+      <div class="icon-emailaddress">
+        <img src="aroma-icons/email.png">
+        <p>Email Address</p>
+      </div>
+      
+      <button>Subscribe</button>
+    </div>
+
+  </section>
+
+
+<section class="footer">
+  <p class="logo">Aroma Cafe</p>
+  <div class="location">
+    <p class="footer-head">Location</p><br>
+    <p>Unit 304, SkyTower Business Center 75 AeroTech Avenue, New Horizon City Metro Manila, Philippines 1009</p>
+  </div>
+
+  <div class="contact">
+    <p class="footer-head">Contact</p>
+    <p>Email : aromacafe.ph</p>
+    <p>Telephone : 9999 999 9999</p>
+    <div class="social-media">
+      <img src="aroma-icons/facebook.png">
+      <img src="aroma-icons/insta.png">
+      <img src="aroma-icons/tiktok.png">
+
+    </div>
+
+  </div>
+
+
+</section>
+
+  </body>
+</html>
