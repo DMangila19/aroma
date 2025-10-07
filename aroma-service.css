@@ -3,6 +3,8 @@
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
     gap: 50px;
    
@@ -12,6 +14,7 @@
 .service-card {
     display: flex;
     flex-direction: row;
+    width: 935px;
     padding: 25px;
     background-color: rgb(255, 255, 255);
     gap: 20px;
@@ -43,21 +46,53 @@
 }
 
 .coffee-icon-bg {
-    height: 60px;
-    width: 60px;
-    background-color: #634832;
+    height: 45px;
+    width: 45px;
+    background-color: #a49d96;
     border-radius: 30px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; }
-
-.coffee-icon-bg img {
-    height: 25px;
-   
+    
 }
 
-.brew {
+
+.service-image {
     width: 485px;
     height: 323px;
     border-radius: 10px;
+}
+
+
+@media  (max-width: 1050px ) {
+
+    .our-services {
+        padding: 100px 100px;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+   
+ 
+    }
+
+    .coffee-icon-bg {
+        height: 45px;
+        width: 45px;
+        background-color: #634832;
+        border-radius: 50px;
+        
+
+    }
+
+    .service-card {
+        width: fit-content;
+    }
+
+    .service-image {
+        width: auto;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+
+
 }

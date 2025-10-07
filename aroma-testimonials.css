@@ -62,3 +62,50 @@
 .stars img {
     height: 24px;
 }
+
+
+@media  (max-width: 1050px ) {
+
+    
+    .testimonial-card {
+        
+        width: 221px;
+        height: 279px;
+        border: 1px solid rgb(0,0,0);
+        padding: 25px;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+    
+    .image-name {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+
+
+    .name-occupation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials img {
+        height: 40px;
+    }
+
+    .testimonial-name {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .testimonial-stories {
+        margin-top: -50px;
+    }
+
+    .stars img {
+        height: 24px;
+    }
+
+    
+}

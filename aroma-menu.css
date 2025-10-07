@@ -122,3 +122,21 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px; 
 }
+
+
+@media (max-width: 1050px ) {
+    
+    #coffee:checked ~ .menu-cards-container .coffee-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px;
+        }
+
+    #pastries:checked ~ .menu-cards-container .pastries-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px; 
+}
+
+}
+

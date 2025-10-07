@@ -1,8 +1,8 @@
 .hero-section {
-         /* 100% of viewport height */
+        
     height: 1024px;
-    background-image: url('aroma-images/aromaBG.jpg');  /* path to your image */
-    background-size: cover;      /* make the image cover the whole div */
+    background-image: url('aroma-images/aromaBG.jpg');  
+    background-size: cover;     
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -16,14 +16,15 @@
 
 }
 
-.hero-section p {
+.hero-heading {
     font-size: 60px;
-    width: 585px;
+    width: 585px; 
 }
 
 section .sub-head {
     font-size: 25px;
     margin-top: 35px;
+    width: 585px; 
 }
 
 .hero-section span {
@@ -33,4 +34,23 @@ section .sub-head {
 .hero-button {
     margin-top: 35px;
     width: 123px;
+}
+
+
+@media (max-width: 1050px ) {
+
+    .hero-section {
+        padding-left: 100px;
+        padding-right: 100px;
+        background-size: fit;
+        height:700px;
+
+    }
+
+    .hero-heading {
+        font-size: 45px;
+        width: 585px;
+    }
+
+    
 }

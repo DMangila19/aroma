@@ -1,20 +1,24 @@
 .about-us {
-    height: 820px;
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    gap: 150px;
+    padding: 100px 200px;
+    gap: 50px;
     font-size: 16px;
+
+
 }
 
 .about-us img {
-    height: 427px;
+    height: 350px;
 }
 
 .about-us-article {
-    height: 427px;
+    height: auto;
+    min-width: 415px;
+    max-width: 600px;
 
 }
 
@@ -25,4 +29,12 @@
 
 .who-we-are {
     font-size: 45px;
+}
+
+
+@media (max-width: 800px) {
+    .about-us {
+        flex-direction: column;
+        padding: 100px 100px;
+    }
 }
