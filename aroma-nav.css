@@ -34,6 +34,7 @@ ul li a{
 }
 
 button {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,4 +51,17 @@ button {
     
     font-family: Lily Script One;
     font-size: 27px;
+}
+
+
+.contactbutton {
+    
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    border-width: 0;
+    background-color: #634832;
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px;
 }
